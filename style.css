@@ -1,0 +1,550 @@
+*{margin:0;padding:0;outline:0;}
+body {
+	font-family: arial;
+	font-size: 14px: line-height: 18px;
+}
+.topnav {
+	background: grey;
+	height: 100px;
+}
+.toplogo {
+	padding: 20px;
+	width: 100px;
+}
+.toplogo a {
+	text-decoration: none;
+}
+.toplogo a:nth-child(1) {
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+}
+.toplogo a:nth-child(2) {
+	color: #57CCC3;
+	font-size: 28px;
+	font-weight: bold;
+}
+.toplogo a:nth-child(3) {
+	color: #AE96A3;
+	font-size: 15px;
+}
+.topmanu {
+	position: absolute;
+	left: 198px;
+	top: 35px;
+}
+.topmanu a {
+	padding: 16px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #4C4C4C;
+	font-weight: bold;
+}
+.topmanu a:hover {
+	color: #57CCC3;
+}
+.appointment {
+	position: absolute;
+	top: 35px;
+	left: 815px;
+}
+.appointment a {
+	text-align: center;
+	text-decoration: none;
+	padding: 14px 35px;
+	border: 3px solid #FD556D;
+	color: #fff;
+	border-radius: 19px;
+	font-weight: bold;
+	background: #FD556D;
+}
+.appointment a:hover {
+	color: #FD556D;
+	background: #fff;
+}
+.topsocial {
+	position: absolute;
+	top: 35px;
+	right: 140px;
+}
+.topsocial ul {
+	list-style-type: none;
+}
+.topsocial ul li {
+	display: inline;
+	
+    
+}
+
+.topsocial ul li a {
+	
+}
+.topsocial ul li a i {
+	padding: 8px;
+	width: 16px;
+	color: #a9a9a9;
+	background: #FFF;
+	text-align: center;
+	border-radius: 20px;
+}
+.topsocial ul li a i:hover {
+	color: #fff;
+	background: #57CCC3;
+}
+.photo {
+	background-image: url("images/face.jpg");
+	background-size: 100% 100%;
+}
+.text {
+	padding: 130px;
+}
+.text h3 {
+	color: #57CCC3;
+	font-size: 26px;
+}
+.text h2 {
+	color: #000;
+	font-size: 52px;
+}
+.text p {
+	font-size: 24px;
+	color: #616151;
+	padding-bottom: 30px;
+}
+.text a {
+	text-decoration: none;
+	color: #fff;
+	background: #FD556D;
+	padding: 15px 30px;
+	border: 4px solid #FD556D;
+	border-radius: 20px;
+	float: left;
+	font-weight: bold;
+	margin-right: 20px;
+}
+.text .appoin {
+	color: #7EF3EA !important;
+	background: #F8F8F8;
+	border: 4px solid #7EF3EA;
+}
+.text .appoin:hover {
+	color: #F8F8F8 !important;
+	background: #7EF3EA;
+}
+.text a:hover {
+	color: #FD556D;
+	background: #F8F8F8;
+}
+.drpro {
+	padding: 130px;
+}
+.welcome {
+	width: 50%;
+	float: left;
+}
+.welcome h3 {
+	color: gray;
+	font-size: 21px;
+}
+.welcome h2 {
+	color: #424242;
+	font-size: 47px;
+	padding-bottom: 16px;
+}
+.welcome p {
+	color: gray;
+	font-size: 20px;
+	line-height: 26px;
+	padding-bottom: 30px;
+}
+.n1 {
+	width: 33%;
+	float: left;
+	padding: 20px 10px;
+}
+.n1 h2 {
+	padding-bottom: 0px;
+	color: #7EF3EA;
+}
+.n2 {
+	width: 33%;
+	float: left;
+	padding: 20px 10px 20px 0;
+}
+.n2 h2 {
+	padding-bottom: 0px;
+	color: #7EF3EA;
+}
+.n3 {
+	padding: 20px 10px 20px 0;
+}
+.n3 h2 {
+	padding-bottom: 0px;
+	color: #7EF3EA;
+}
+.appoinc {
+	padding: 20px;
+}
+.appoinc th {
+	background: #7EF3EA;
+	padding: 15px 25px;
+}
+.appoinc input {
+	padding: 15px 30px;
+	margin-top: 5px;
+	border: 2px solid #F9DDDD;
+}
+.appoinc select {
+	padding: 15px 105px 15px 28px;
+	border: 2px solid #F9DDDD;
+	color: gray;
+	cursor: pointer;
+	-webkit-appearance: none;
+	margin-top: 5px;
+}
+.Doctors {
+	padding-right: 103px !important;
+}
+.date {
+	padding-right: 58px !important;
+}
+.subbutton {
+	cursor: pointer;
+	margin-top: 10px !important;
+	border-radius: 26px;
+	color: #fff;
+	background: #FD556D;
+	border: 2px solid #FD556D !important;
+	font-weight: bold;
+}
+.why {
+	background: #EFF2F7;
+	height: 650px;
+	padding-top: 50px;
+}
+.why-img img {
+	float: left;
+}
+.man {
+	padding: 50px;
+}
+.man h3 {
+	color: gray;
+	font-size: 21px;
+}
+.man h2 {
+	color: #424242;
+	font-size: 47px;
+	padding-bottom: 16px;
+}
+.man p {
+	color: gray;
+	font-size: 18px;
+	line-height: 23px;
+	padding-bottom: 30px;
+}
+.man i {
+	font-size: 25px;
+	background: #6BDBD2;
+	color: #fff;
+	padding: 12px;
+	border-radius: 25px;
+	float: left;
+	margin-right: 28px;
+}
+.product {
+	padding-top: 40px;
+}
+.product h2 {
+	font-size: 20px;
+	padding-bottom: 0;
+}
+.bdoctors h2 {
+	font-size: 20px;
+	padding-bottom: 0;
+}
+.feedback h2 {
+	font-size: 20px;
+	padding-bottom: 0;
+}
+.product p {
+	font-size: 16px;
+}
+.bdoctors p {
+	font-size: 16px;
+}
+.feedback p {
+	font-size: 16px;
+}
+.call {
+	background: #FD556D;
+	height: 160px;
+}
+.makeya {
+	padding: 60px 100px;
+	color: #fff;
+	float: left;
+}
+.calln {
+	color: #fff;
+	font-size: 26px;
+	float: right;
+	padding: 15px 40px;
+	background: #EE4860;
+	border-radius: 15px;
+	margin: 50px;
+}
+
+.dservice {
+	padding: 50px 0;
+	text-align: center;
+}
+.dservice h2 {
+	color: #808080;
+	font-size: 20px;
+}
+.dservice h1 {
+	padding-top: 10px;
+	font-size: 40px;
+}
+.servicemenu {
+	padding: 10px;
+	background: #fff;
+	height: 530px;
+}
+.service1 {
+	width: 33.3%;
+	float: left;
+	text-align: center;
+}
+.service1 i {
+	font-size: 35px;
+	background: #6BDBD2;
+	padding: 14px;
+	color: #fff;
+	border-radius: 40px;
+	width: 34px;
+	margin: 30px 0 20px 0;
+}
+.service1 h2 {
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+.service1 p {
+	color: #808080;
+	line-height: 25px;
+	margin: 18px 0;
+}
+.discount img {
+	height: 100%;
+	width: 1349.9px;
+}
+.dis30 {
+	background: #fff;
+	height: 500px;
+	width: 400px;
+	padding: 30px;
+	position: absolute;
+	left: 800px;
+	top: 2830px;
+}
+.dis30 h1 {
+	color: #6BDBD2;
+	font-size: 40px;
+}
+.dis30 h3 {
+	color: #979797;
+	font-size: 20px;
+	font-weight: normal;
+	padding-left: 70px;
+}
+.dis30 h2 {
+	font-size: 65px;
+	color: #404040;
+	padding-bottom: 15px;
+}
+.dis30 p {
+	color: #A18E84;
+	font-size: 16px;
+	line-height: 25px;
+	padding-bottom: 100px;
+}
+.dis30 a {
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	background: #FD556D;
+	padding: 14px 50px;
+	border: 2px solid #FD556D;
+	border-radius: 25px;
+	color: #fff;
+}
+.dis30 a:hover {
+	color: #FD556D;
+	background: #fff;
+}
+.subscribe {
+	background: #ddd;
+	background-image: linear-gradient(#FD556D 20%, #fff 50%, #B1D0ED );
+	margin-top: -4px;
+	height: 200px;
+}
+.subscribe h2 {
+	text-align: center;
+	padding: 40px;
+	color: #f3f3f3;
+	font-size: 30px;
+}
+.subscribe p {
+	text-align: center;
+}
+.subscribe input:nth-child(1) {
+	padding: 12px 350px 12px 28px;
+	border: 2px solid #FD556D;
+	background: none;
+	color: #C42139;
+	font-size: 16px;
+}
+.subscribe input:nth-child(2) {
+	padding: 12px 60px;
+	font-size: 16px;
+	background: #FD556D;
+	border: 2px solid #FD556D;
+	border-radius: 25px;
+	margin-left: -20px;
+	color: #fff;
+}
+.footer {
+	background: #313438;
+	height: 500px;
+}
+.fotlogo {
+	padding: 20px;
+}
+.fotlogo a {
+	text-decoration: none;
+	color: #a2a2a2;
+}
+.fotlogo a:nth-child(1) {
+	color: #fff;
+	font-size: 25px;
+	font-weight: bold;
+}
+.fotlogo a:nth-child(2) {
+	color: #57CCC3;
+	font-size: 28px;
+	font-weight: bold;
+}
+.fotlogo a:nth-child(3) {
+	color: #AE96A3;
+	font-size: 15px;
+}
+.fot1 {
+	width: 50%;
+	float: left;
+}
+.fotlogo {
+	padding: 80px;
+	float: left;
+}
+.cont {
+	padding: 80px;
+}
+.location {
+	padding: 80px 80px 80px 0px;
+	float: left;
+}
+.time {
+	padding: 80px;
+}
+.fot1 p {
+	color: #828486;
+	padding: 34px 0;
+	line-height: 29px;
+}
+.cont h2 {
+	color: #fff;
+	font-weight: normal;
+	font-size: 20px;
+	padding-top: 26px;
+}
+.location h2 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: normal;
+	padding-top: 24px;
+}
+.location p {
+	color: #828473;
+	line-height: 24px;
+	padding: 30px 0;
+}
+.miami {
+	padding-top: 12px;
+}
+.miami h2 {
+	color: #1045A8;
+	font-size: 19px;
+}
+.miami p {
+	color: #657D92;
+	padding: 18px 0;
+}
+table td {
+	font-size: 17px;
+	line-height: 34px;
+	font-weight: normal;
+	padding: 5px 20px 5px 0;
+	color: #818181;
+}
+caption {
+	color: #fff;
+	font-size: 20px;
+	float: left;
+	padding: 9px 0 27px;
+}
+table {
+	border: 2px solid #818181;
+	padding: 15px;
+}
+.lastfooter {
+	background: #181A1D;
+	height: 50px;
+}
+.copyroght {
+	padding: 15px 80px;
+}
+.copyroght p {
+	color: #818181;
+	float: left;
+}
+.copyroght a {
+	text-decoration: none;
+	color: blue;
+	padding: 0 75px 0 10px;
+}
+.copyroght {
+	padding: 15px 80px;
+	float: left;
+}
+.fotmanu {
+	padding: 15px;
+}
+.fotmanu a {
+	padding: 10px 18px;
+	font-size: 17px;
+	text-decoration: none;
+	color: #818181;
+}
+
+
+
+
+
+
+
+
+
+
+
+
